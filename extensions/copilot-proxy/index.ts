@@ -10,6 +10,7 @@ const DEFAULT_API_KEY = "n/a";
 const DEFAULT_CONTEXT_WINDOW = 128_000;
 const DEFAULT_MAX_TOKENS = 8192;
 const DEFAULT_MODEL_IDS = [
+  "gpt-5.3-codex",
   "gpt-5.2",
   "gpt-5.2-codex",
   "gpt-5.1",
@@ -17,6 +18,7 @@ const DEFAULT_MODEL_IDS = [
   "gpt-5.1-codex-max",
   "gpt-5-mini",
   "claude-opus-4.6",
+  "claude-opus-4-6-fast",
   "claude-opus-4.5",
   "claude-sonnet-4.5",
   "claude-haiku-4.5",
