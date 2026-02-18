@@ -1,0 +1,141 @@
+Scope: all 35 workspace projects
+Lockfile is up to date, resolution step is skipped
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Packages: +1009
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 1009, reused 0, downloaded 9, added 0
+Progress: resolved 1009, reused 0, downloaded 109, added 108
+Progress: resolved 1009, reused 0, downloaded 271, added 269
+Progress: resolved 1009, reused 0, downloaded 333, added 321
+Progress: resolved 1009, reused 0, downloaded 349, added 328
+Progress: resolved 1009, reused 0, downloaded 383, added 347
+Progress: resolved 1009, reused 0, downloaded 392, added 348
+Progress: resolved 1009, reused 0, downloaded 403, added 352
+Progress: resolved 1009, reused 0, downloaded 425, added 360
+Progress: resolved 1009, reused 0, downloaded 472, added 388
+Progress: resolved 1009, reused 0, downloaded 528, added 416
+Progress: resolved 1009, reused 0, downloaded 591, added 446
+Progress: resolved 1009, reused 0, downloaded 686, added 525
+Packages are hard linked from the content-addressable store to the virtual store.
+  Content-addressable store is at: /home/jules/.local/share/pnpm/store/v10
+  Virtual store is at:             node_modules/.pnpm
+Progress: resolved 1009, reused 0, downloaded 810, added 627
+Progress: resolved 1009, reused 0, downloaded 871, added 768
+Progress: resolved 1009, reused 0, downloaded 882, added 776
+Progress: resolved 1009, reused 0, downloaded 905, added 787
+Progress: resolved 1009, reused 0, downloaded 921, added 796
+Progress: resolved 1009, reused 0, downloaded 971, added 858
+Progress: resolved 1009, reused 0, downloaded 1002, added 878
+Progress: resolved 1009, reused 0, downloaded 1003, added 878
+Progress: resolved 1009, reused 0, downloaded 1005, added 1008
+Progress: resolved 1009, reused 0, downloaded 1006, added 1008
+Progress: resolved 1009, reused 0, downloaded 1006, added 1009, done
+.../node_modules/protobufjs postinstall$ node scripts/postinstall
+.../sharp@0.34.5/node_modules/sharp install$ node install/check.js || npm run build
+.../node_modules/node-llama-cpp postinstall$ node ./dist/cli/cli.js postinstall
+.../node_modules/protobufjs postinstall$ node scripts/postinstall
+.../node_modules/protobufjs postinstall: Done
+.../esbuild@0.27.3/node_modules/esbuild postinstall$ node install.js
+.../node_modules/protobufjs postinstall$ node scripts/postinstall
+.../node_modules/protobufjs postinstall: Done
+.../sharp@0.34.5/node_modules/sharp install: Done
+.../node_modules/protobufjs postinstall: Done
+.../esbuild@0.27.3/node_modules/esbuild postinstall: Done
+.../@matrix-org/matrix-sdk-crypto-nodejs postinstall$ node download-lib.js
+.../@matrix-org/matrix-sdk-crypto-nodejs postinstall: Downloading lib matrix-sdk-crypto.linux-x64-gnu.node from https://github.com/matrix-org/matrix-rust-sdk-crypto-nodejs/releases/download/v0.4.0/matrix-sdk-crypto.linux-x64-gnu.node
+.../@matrix-org/matrix-sdk-crypto-nodejs postinstall: Download Completed
+.../@matrix-org/matrix-sdk-crypto-nodejs postinstall: Done
+.../node_modules/node-llama-cpp postinstall: [node-llama-cpp] The prebuilt binary for platform "linux" "x64" with Vulkan support is not compatible with the current system, falling back to using no GPU
+.../node_modules/node-llama-cpp postinstall: Done
+.../node_modules/@whiskeysockets/baileys preinstall$ node ./engine-requirements.js
+.../node_modules/@whiskeysockets/baileys preinstall: Done
+
+dependencies:
++ @agentclientprotocol/sdk 0.14.1
++ @aws-sdk/client-bedrock 3.988.0
++ @buape/carbon 0.14.0
++ @clack/prompts 1.0.0
++ @grammyjs/runner 2.0.3
++ @grammyjs/transformer-throttler 1.2.1
++ @homebridge/ciao 1.3.5
++ @larksuiteoapi/node-sdk 1.59.0
++ @line/bot-sdk 10.6.0
++ @lydell/node-pty 1.2.0-beta.3
++ @mariozechner/pi-agent-core 0.52.9
++ @mariozechner/pi-ai 0.52.9
++ @mariozechner/pi-coding-agent 0.52.9
++ @mariozechner/pi-tui 0.52.9
++ @mozilla/readability 0.6.0
++ @napi-rs/canvas 0.1.91
++ @sinclair/typebox 0.34.48
++ @slack/bolt 4.6.0
++ @slack/web-api 7.14.0
++ @whiskeysockets/baileys 7.0.0-rc.9
++ ajv 8.17.1
++ chalk 5.6.2
++ chokidar 5.0.0
++ cli-highlight 2.1.11
++ commander 14.0.3
++ croner 10.0.1
++ discord-api-types 0.38.38
++ dotenv 17.2.4
++ express 5.2.1
++ file-type 21.3.0
++ grammy 1.40.0
++ jiti 2.6.1
++ json5 2.2.3
++ jszip 3.10.1
++ linkedom 0.18.12
++ long 5.3.2
++ markdown-it 14.1.1
++ node-edge-tts 1.2.10
++ node-llama-cpp 3.15.1
++ osc-progress 0.3.0
++ pdfjs-dist 5.4.624
++ playwright-core 1.58.2
++ proper-lockfile 4.1.2
++ qrcode-terminal 0.12.0
++ sharp 0.34.5
++ signal-utils 0.21.1
++ sqlite-vec 0.1.7-alpha.2
++ tar 7.5.7
++ tslog 4.10.2
++ undici 7.21.0
++ ws 8.19.0
++ yaml 2.8.2
++ zod 4.3.6
+
+devDependencies:
++ @grammyjs/types 3.24.0
++ @lit-labs/signals 0.2.0
++ @lit/context 1.1.6
++ @types/express 5.0.6
++ @types/markdown-it 14.1.2
++ @types/node 25.2.3
++ @types/proper-lockfile 4.1.4
++ @types/qrcode-terminal 0.12.2
++ @types/ws 8.18.1
++ @typescript/native-preview 7.0.0-dev.20260212.1
++ @vitest/coverage-v8 4.0.18
++ lit 3.3.2
++ ollama 0.6.3
++ oxfmt 0.32.0
++ oxlint 1.47.0
++ oxlint-tsgolint 0.12.1
++ rolldown 1.0.0-rc.4
++ tsdown 0.20.3
++ tsx 4.21.0
++ typescript 5.9.3
++ vitest 4.0.18
+
+╭ Warning ─────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│   Ignored build scripts: core-js.                                            │
+│   Run "pnpm approve-builds" to pick which dependencies should be allowed     │
+│   to run scripts.                                                            │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+. prepare$ command -v git >/dev/null 2>&1 && git config core.hooksPath git-hooks || exit 0
+. prepare: Done
+Done in 43.5s using pnpm v10.23.0
